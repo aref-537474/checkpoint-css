@@ -1,0 +1,86 @@
+.jumbotron {
+    color: white;
+}
+
+main {
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: lightgreen;
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lavender;
+        font-size: 1em;
+        font-family: 'Sriracha', cursive;
+    }
+}
+
+.nav {
+    margin: 0 auto 0 auto;
+}
+
+#work {
+    margin-left: 20%;
+    width: 60%;
+}
+
+th {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.item1 {
+    grid-area: name;
+}
+
+.item2 {
+    grid-area: number;
+}
+
+.item3 {
+    grid-area: email;
+}
+
+.item4 {
+    grid-area: myname;
+}
+
+.item5 {
+    grid-area: mynumber;
+}
+
+.item6 {
+    grid-area: myemail;
+}
+
+.grid-container {
+    display: grid;
+    grid: 'name number email''myname mynumber myemail';
+    grid-gap: 10px;
+    background-color: #54a7eb;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.grid-container>div {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 32%;
+    padding: 53px;
+}
